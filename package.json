@@ -1,0 +1,51 @@
+{
+  "version": "0.0.0-semantically-released",
+  "name": "@khulnasoft/terraform-unidiff",
+  "description": "generate a visual diff of Terraform Plan changes",
+  "author": "KhulnaSoft <ahmad@khulnasoft.com> (http://khulnasoft.com)",
+  "homepage": "https://khulnasoft.com/projects",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khulnasoft/node-terraform-unidiff.git"
+  },
+  "bugs": {
+    "url": "https://github.com/khulnasoft/node-terraform-unidiff/issues"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/khulnasoft"
+  },
+  "license": "ISC",
+  "keywords": [
+    "ahmad",
+    "nassri",
+    "khulnasoft"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "bin.js",
+    "index.js",
+    "schema.json"
+  ],
+  "main": "index.js",
+  "bin": "bin.js",
+  "scripts": {
+    "test": "tap test --no-coverage",
+    "test:watch": "tap test --watch",
+    "test:ci": "tap test --100",
+    "test:report": "opener coverage/lcov-report/index.html"
+  },
+  "engine": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "tap": "^16.3.0"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "diff": "^7.0.0",
+    "yaml": "^2.5.1"
+  }
+}

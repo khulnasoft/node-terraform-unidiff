@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "required": [
+    "format_version",
+    "terraform_version"
+  ],
+  "properties": {
+    "format_version": {
+      "type": "string"
+    },
+    "terraform_version": {
+      "type": "string"
+    },
+    "resource_changes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "address",
+          "change"
+        ],
+        "properties": {
+          "address": {
+            "type": "string"
+          },
+          "change": {
+            "type": "object",
+            "required": [
+              "actions"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": ["@khulnasoft/terraform-unidiff"],
+  "registry": [
+    { "id": "NPM", "url": "https://registry.npmjs.org" },
+    { "id": "GITHUB", "url": "https://npm.pkg.github.com" }
+  ]
+}

@@ -1,0 +1,8 @@
+version: 2.0
+
+id: "@khulnasoft/terraform-unidiff"
+
+about:
+  title: Terraform Plan Unidiff
+  description: Generate a human readable diff of Terraform Plan changes, using [Unified format (`unidiff`)](https://en.wikipedia.org/wiki/Diff#Unified_format)
+  repository: khulnasoft/node-terraform-unidiff
